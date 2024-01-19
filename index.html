@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="title" content="Message Silo" />
+        <meta name="application-name" content="Message Silo" />
+        <meta name="description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
+        <meta name="keywords" content="message silo, messagesilo, silo, message, ai, event, event-driven, tool, power, system, artifical inteligence" />
+        <meta name="rating" content="General" />
+        <meta name="robots" content="index,follow" />
+        
+        <!--FACEBOOK, Discord-->
+        <meta name="og:url" content="silo-site-url" />
+        <meta name="og:type" content="website" />
+        <meta name="og:title" content="Message Silo" />
+        <meta name="og:description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
+        <meta name="og:image" content="/nav-logo.png" />
+
+        <!--Twitter-->
+        <meta name="twitter:domain" content="silo-site-url" />
+        <meta name="twitter:url" content="silo-site-url" />
+        <meta name="twitter:title" content="Message Silo" />
+        <meta name="twitter:description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
+        <meta name="twitter:image" content="/nav-logo.png" />
+
+        <!--IOS-->
+        <meta name="apple-mobile-web-app-title" content="Message Silo" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+        <!--Android-->
+        <meta name="theme-color" content="#1e1e1e" />
+        <meta name="mobile-web-app-capable" content="yes" />
+
+        <title>Message Silo</title>
+    </head>
+    <body>
+        <section
+            class="relative flex flex-col items-center w-full h-screen overflow-hidden bg-about bg-no-repeat bg-center bg-cover z-10 before:absolute before:top-0 before: content-none before:w-full before:h-full before:bg-[rgba(2,14,29,.85)] before:-z-10"
+        >
+            <nav class="relative flex items-center py-[4.5rem] w-[90%]">
+                <div class="hidden absolute top-1/2 transform -translate-y-1/2 md:flex justify-center items-center w-[10%] xl:w-[3%] aspect-square">
+                    <img src="/nav-logo.png" alt="nav_logo">
+                </div>
+
+                <ol class="flex justify-center items-center gap-[5%] text-zinc-200 w-full h-full list-none text-xl font-semibold">
+                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#home">Home</a></li>
+                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#why">Why</a></li>
+                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#features">Features</a></li>
+                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#contact">Find Us</a></li>
+                </ol>
+            </nav>
+
+            <div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] h-[70%]">
+                <div class="flex flex-col justify-around items-center w-full h-1/2 text-zinc-200 gap-8">
+                    <div class="flex flex-col gap-8 w-full my-8">
+                        <h1 class="text-4xl font-bold bg-gradientTitle bg-clip-text text-transparent duration-300 ease-linear p-1">Message Silo</h1>
+						<h1 class="text-6xl font-semibold">Clean up the mess of <span class="text-[#00D9D0]">messages</span></h1>
+						<h2 class="text-2xl font-medium my-2">A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems</h2>
+                    </div>
+
+                    <button class="text-xl text-zinc-200 py-3 px-2 w-1/2 lg:w-1/4 rounded-lg bg-aboutBtn self-center md:self-start cursor-pointer duration-300 hover:scale-105">Get Started</button>
+                </div>
+                <div class="hidden xl:flex justify-center items-center w-full h-full">
+                    <div class="w-1/2 aspect-square">
+                        <img src="/bg-2.svg" alt="about_svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
