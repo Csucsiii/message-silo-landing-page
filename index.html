@@ -121,7 +121,7 @@
 				</li>
 			</ul>
 		</section>
-		<section id="why" class="flex justify-center items-center w-full h-full bg-[#020E1D] text-zinc-200">
+		<section id="why" class="flex justify-center items-center w-full h-full text-zinc-200 py-16 my-10">
 			<div class="flex flex-col items-center w-[90%]">
 				<h1 class="text-md md:text-xl font-bold text-center w-[50%] my-20">
 					<span class="text-[#00d9d0]">Created for developers</span> who need to handle special cases of dead-lettered messages in different
@@ -166,6 +166,169 @@
 				</div>
 			</div>
 		</section>
-		<script type="module" src="/main.js"></script>
+		<section class="flex justify-center items-center w-full h-full bg-[#020E1D]">
+			<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] gap-4 py-16">
+				<div class="hidden xl:flex justify-center items-center w-full h-full">
+					<div class="w-full justify-self-end">
+						<img src="/laptop.svg" alt="laptop_svg" />
+					</div>
+				</div>
+				<div class="flex flex-col justify-around xl:items-center w-full xl:w-[80%] h-full text-zinc-200">
+					<div class="flex flex-col gap-2 w-full my-8">
+						<h1 class="text-3xl md:text-4xl font-semibold">Correct your dead-lettered <span class="text-[#00D9D0]">messages</span></h1>
+						<h2 class="text-lg md:text-lg text-justify font-normal my-2">
+							You can define a custom JavaScript function that is called for every dead-letter message. Transform the message and re-enqueue it
+							automatically!
+						</h2>
+						<h2 class="text-lg md:text-xl font-medium my-2">siloctl apply -f myconn.yaml</h2>
+					</div>
+
+					<button
+						class="text-xl text-zinc-200 py-3 px-2 w-1/2 sm:w-1/3 md:w-[40%] rounded-lg bg-aboutBtn self-center md:self-start cursor-pointer duration-300 hover:scale-105"
+					>
+						See more examples
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="flex justify-start items-center w-full h-full bg-[#021327]">
+			<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] gap-4 py-16 xl:py-0 xl:pt-16">
+				<div class="flex flex-col justify-around xl:items-center w-full xl:w-[80%] h-full text-zinc-200">
+					<div class="flex flex-col gap-2 w-full my-8">
+						<h1 class="text-3xl md:text-4xl font-bold">Simplifies integration between <span class="text-[#00D9D0]">systems</span></h1>
+						<h2 class="text-lg md:text-lg text-justify font-normal my-2">
+							You can define a custom JavaScript function that is called for every dead-letter message. Transform the message and re-enqueue it
+							automatically!
+						</h2>
+						<h2 class="text-lg md:text-xl font-medium my-2">siloctl apply -f myconn.yaml</h2>
+					</div>
+
+					<button
+						class="text-xl text-zinc-200 py-3 px-2 w-1/2 lg:w-1/4 rounded-lg bg-aboutBtn self-center md:self-start cursor-pointer duration-300 hover:scale-105"
+					>
+						Try it free
+					</button>
+				</div>
+				<div class="hidden xl:flex justify-center items-center w-full h-full">
+					<div class="w-full flex justify-center items-center">
+						<img src="/systems.png" alt="systems_png" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="flex justify-center items-center w-full h-full bg-[#020E1D]">
+			<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] gap-4 pt-16">
+				<div class="hidden xl:flex justify-center items-center w-full h-full">
+					<div class="w-full flex justify-center items-center">
+						<img src="/api.png" alt="api_png" />
+					</div>
+				</div>
+				<div class="flex flex-col justify-around xl:items-center w-full xl:w-[80%] h-full text-zinc-200">
+					<div class="flex flex-col gap-2 w-[80%] my-8">
+						<h1 class="text-3xl md:text-4xl font-bold">Call your own APIs without <span class="text-[#00D9D0]">coding</span></h1>
+						<h2 class="text-lg md:text-lg text-justify font-normal my-2">
+							Send the corrected messages to your own endpoints, or enrich the message with your own business logic!
+						</h2>
+						<h2 class="text-lg md:text-xl font-medium my-2">siloctl apply -f myconn.yaml</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="flex justify-center items-center w-full py-16">
+			<div class="flex flex-col md:flex-row justify-center items-center w-[90%] bg-aboutBtn min-h-[200px] rounded-md gap-4 p-14">
+				<h1 class="text-zinc-200 text-2xl xl:text-5xl font-bold w-full mg:w-1/2 lg:w-[70%]">Message Silo is fully open-source. Follow us on GitHub!</h1>
+				<div class="flex justify-center lg:justify-start items-center w-full md:w-1/2 lg:w-[30%] gap-4">
+					<button class="flex justify-center items-center bg-zinc-200 rounded-md p-2 px-6 gap-2 duration-300 hover:scale-105">
+						<div class="w-full">
+							<img src="github.svg" alt="github_svg" />
+						</div>
+						<h2 class="text-zinc-800 text-xl font-normal">Star</h2>
+					</button>
+					<div class="relative bg-zinc-200 aspect-square p-2 rounded-md flex justify-center items-center">
+						<div class="absolute top-1/2 -left-[20%] -translate-y-1/2">
+							<svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.5 9.59808C-0.499998 8.44338 -0.500001 5.55662 1.5 4.40192L7.5 0.937822C9.5 -0.216878 12 1.2265 12 3.5359L12 10.4641C12 12.7735 9.5 14.2169 7.5 13.0622L1.5 9.59808Z"
+									fill="rgb(228,228,231)"
+								/>
+							</svg>
+						</div>
+						<h2 class="text-zinc-800 text-xl font-normal">99</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="flex justify-center items-center w-full h-full py-16">
+			<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center items-start xl:items-center w-[90%] gap-6">
+				<div class="flex justify-center items-center gap-2 xl:justify-self-start self-start">
+					<div>
+						<img src="/nav-logo.png" alt="navbar_logo">
+					</div>
+					<h1 class="text-zinc-200 text-3xl font-medium">Message Silo</h1>
+				</div>
+				<div class="flex flex-col justify-center items-center xl:items-start gap-3 text-zinc-200 w-full">
+					<h1 class="text-zinc-200 text-xl font-medium">Resources</h1>
+					<ul class="flex flex-col w-1/2 gap-2">
+						<li>
+							<button class="flex justify-start items-center gap-2">
+								<img src="/arrow.svg" alt="arrow_svg">
+								<h3 class="text-sm font-normal">Home</h3>
+							</button>
+						</li>
+						<li>
+							<button class="flex justify-start items-center gap-2">
+								<img src="/arrow.svg" alt="arrow_svg">
+								<h3 class="text-sm font-normal">Documentation</h3>
+							</button>
+						</li>
+						<li>
+							<button class="flex justify-start items-center gap-2">
+								<img src="/arrow.svg" alt="arrow_svg">
+								<h3 class="text-sm font-normal">Get Started</h3>
+							</button>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-col justify-center items-center xl:items-start gap-3 text-zinc-200 w-full">
+					<h1 class="text-zinc-200 text-xl font-medium">Contact</h1>
+					<ul class="flex flex-col w-1/2 gap-2">
+						<li>
+							<button class="flex justify-start items-center gap-2">
+								<div class="flex justify-center items-center bg-aboutBtn p-2 rounded-[50%]">
+									<img src="/call.svg" alt="arrow_svg">
+								</div>
+								<h3 class="text-sm font-normal">berkid89@gmail.com</h3>
+							</button>
+						</li>
+						<li>
+							<button class="flex justify-start items-center gap-2">
+								<div class="flex justify-center items-center bg-aboutBtn p-2 rounded-[50%]">
+									<img src="/web.svg" alt="arrow_svg">
+								</div>
+								<h3 class="text-sm font-normal">www.message-silo.dev</h3>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div class="flex justify-center items-center w-[80%] md:w-[90%]">
+			<svg width="608" height="4" viewBox="0 0 608 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0 2H607.5" stroke="url(#paint0_linear_25_23)" stroke-width="3" />
+				<defs>
+					<linearGradient id="paint0_linear_25_23" x1="923.5" y1="1.99352" x2="-314" y2="17.4988" gradientUnits="userSpaceOnUse">
+						<stop offset="0.29" stop-color="#021327" />
+						<stop offset="0.44" stop-color="#00D9D0" />
+						<stop offset="0.57" stop-color="#021327" />
+					</linearGradient>
+				</defs>
+			</svg>
+		</div>
+		<section class="flex justify-center items-center w-full">
+			<div class="flex justify-between items-center w-[90%] text-zinc-200 py-8">
+				<h1 class="text-sm font-normal">2024 © copyright reserved by Message Silo</h1>
+				<button class="text-sm font-normal">Privacy Policy</button>
+			</div>
+		</section>
 	</body>
 </html>
