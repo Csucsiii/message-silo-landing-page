@@ -1,76 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <meta name="title" content="Message Silo" />
-        <meta name="application-name" content="Message Silo" />
-        <meta name="description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
-        <meta name="keywords" content="message silo, messagesilo, silo, message, ai, event, event-driven, tool, power, system, artifical inteligence" />
-        <meta name="rating" content="General" />
-        <meta name="robots" content="index,follow" />
-        
-        <!--FACEBOOK, Discord-->
-        <meta name="og:url" content="silo-site-url" />
-        <meta name="og:type" content="website" />
-        <meta name="og:title" content="Message Silo" />
-        <meta name="og:description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
-        <meta name="og:image" content="/nav-logo.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="title" content="Message Silo" />
+		<meta name="application-name" content="Message Silo" />
+		<meta
+			name="description"
+			content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems."
+		/>
+		<meta name="keywords" content="message silo, messagesilo, silo, message, ai, event, event-driven, tool, power, system, artifical inteligence" />
+		<meta name="rating" content="General" />
+		<meta name="robots" content="index,follow" />
 
-        <!--Twitter-->
-        <meta name="twitter:domain" content="silo-site-url" />
-        <meta name="twitter:url" content="silo-site-url" />
-        <meta name="twitter:title" content="Message Silo" />
-        <meta name="twitter:description" content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems." />
-        <meta name="twitter:image" content="/nav-logo.png" />
+		<!--FACEBOOK, Discord-->
+		<meta name="og:url" content="silo-site-url" />
+		<meta name="og:type" content="website" />
+		<meta name="og:title" content="Message Silo" />
+		<meta
+			name="og:description"
+			content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems."
+		/>
+		<meta name="og:image" content="/nav-logo.png" />
 
-        <!--IOS-->
-        <meta name="apple-mobile-web-app-title" content="Message Silo" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!--Twitter-->
+		<meta name="twitter:domain" content="silo-site-url" />
+		<meta name="twitter:url" content="silo-site-url" />
+		<meta name="twitter:title" content="Message Silo" />
+		<meta
+			name="twitter:description"
+			content="Message Silo, Clean up the mess of messages. A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems."
+		/>
+		<meta name="twitter:image" content="/nav-logo.png" />
 
-        <!--Android-->
-        <meta name="theme-color" content="#1e1e1e" />
-        <meta name="mobile-web-app-capable" content="yes" />
+		<!--IOS-->
+		<meta name="apple-mobile-web-app-title" content="Message Silo" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-        <title>Message Silo</title>
-    </head>
-    <body>
-        <section
-            class="relative flex flex-col items-center w-full h-screen overflow-hidden bg-about bg-no-repeat bg-center bg-cover z-10 before:absolute before:top-0 before:w-full before:h-full before:bg-[rgba(2,14,29,.85)] before:-z-10"
-        >
-            <nav class="relative flex items-center py-[4.5rem] w-[90%]">
-                <div class="hidden absolute top-1/2 transform -translate-y-1/2 md:flex justify-center items-center w-[10%] xl:w-[3%] aspect-square">
-                    <img src="/nav-logo.png" alt="nav_logo">
-                </div>
+		<!--Android-->
+		<meta name="theme-color" content="#1e1e1e" />
+		<meta name="mobile-web-app-capable" content="yes" />
 
-                <ol class="flex justify-center items-center gap-[5%] text-zinc-200 w-full h-full list-none text-xl font-semibold">
-                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#home">Home</a></li>
-                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#why">Why</a></li>
-                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#features">Features</a></li>
-                    <li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#contact">Find Us</a></li>
-                </ol>
-            </nav>
+		<title>Message Silo</title>
+	</head>
+	<body>
+		<section
+			id="home"
+			class="relative flex flex-col items-center w-full min-h-screen bg-about bg-no-repeat bg-center bg-cover z-10 before:absolute before:top-0 before:w-full before:h-full before:bg-[rgba(2,14,29,.85)] before:-z-10"
+		>
+			<nav class="relative flex items-center py-[4.5rem] w-[90%]">
+				<div class="hidden absolute top-1/2 transform -translate-y-1/2 md:flex justify-center items-center w-[10%] xl:w-[3%] aspect-square">
+					<img src="/nav-logo.png" alt="nav_logo" />
+				</div>
 
-            <div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] h-[70%]">
-                <div class="flex flex-col justify-around items-center w-full h-1/2 text-zinc-200 gap-8">
-                    <div class="flex flex-col gap-8 w-full my-8">
-                        <h1 class="text-4xl font-bold bg-gradientTitle bg-clip-text text-transparent duration-300 ease-linear p-1">Message Silo</h1>
-						<h1 class="text-6xl font-semibold">Clean up the mess of <span class="text-[#00D9D0]">messages</span></h1>
-						<h2 class="text-2xl font-medium my-2">A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems</h2>
-                    </div>
+				<ol class="flex justify-center items-center gap-[5%] text-zinc-200 w-full h-full list-none text-xl font-semibold">
+					<li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#home">Home</a></li>
+					<li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#why">Why</a></li>
+					<li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#features">Features</a></li>
+					<li class="duration-300 hover:text-[#00d9D0] hover:scale-105"><a href="#contact">Find Us</a></li>
+				</ol>
+			</nav>
 
-                    <button class="text-xl text-zinc-200 py-3 px-2 w-1/2 lg:w-1/4 rounded-lg bg-aboutBtn self-center md:self-start cursor-pointer duration-300 hover:scale-105">Get Started</button>
-                </div>
-                <div class="hidden xl:flex justify-center items-center w-full h-full">
-                    <div class="w-1/2 aspect-square">
-                        <img src="/bg-2.svg" alt="about_svg">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <script type="module" src="/main.js"></script>
-    </body>
+			<div class="grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center w-[90%] h-[70%]">
+				<div class="flex flex-col justify-around items-center w-full h-full text-zinc-200 gap-8 p-6">
+					<div class="flex flex-col gap-8 w-full my-8">
+						<h1 class="text-2xl md:text-4xl font-bold bg-gradientTitle bg-clip-text text-transparent duration-300 ease-linear p-1">Message Silo</h1>
+						<h1 class="text-4xl md:text-6xl font-semibold">Clean up the mess of <span class="text-[#00D9D0]">messages</span></h1>
+						<h2 class="text-lg md:text-2xl font-medium my-2">
+							A tool to fix or enrich messages with the power of AI, and make integration simpler for event-driven systems
+						</h2>
+					</div>
+
+					<button
+						class="text-xl text-zinc-200 py-3 px-2 w-1/2 lg:w-1/4 rounded-lg bg-aboutBtn self-center md:self-start cursor-pointer duration-300 hover:scale-105"
+					>
+						Get Started
+					</button>
+				</div>
+				<div class="hidden xl:flex justify-center items-center w-full h-full">
+					<div class="w-1/2 aspect-square">
+						<img src="/bg-2.svg" alt="about_svg" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="flex justify-center items-center w-[80%] md:w-[90%]">
+			<svg width="608" height="4" viewBox="0 0 608 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0 2H607.5" stroke="url(#paint0_linear_25_23)" stroke-width="3" />
+				<defs>
+					<linearGradient id="paint0_linear_25_23" x1="923.5" y1="1.99352" x2="-314" y2="17.4988" gradientUnits="userSpaceOnUse">
+						<stop offset="0.29" stop-color="#021327" />
+						<stop offset="0.44" stop-color="#00D9D0" />
+						<stop offset="0.57" stop-color="#021327" />
+					</linearGradient>
+				</defs>
+			</svg>
+		</div>
+		<section class="flex justify-center items-center w-full bg-[#021327]">
+			<!-- <ul class="flex justify-center items-center list-none w-[90%] text-zinc-200 font-medium p-4"> -->
+			<ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center items-center w-[90%] text-zinc-200 font-medium p-6 gap-4">
+				<li class="flex justify-start items-center gap-8 w-full">
+					<div class="w-1/6 aspect-square">
+						<img src="/service-bus.svg" alt="service_bus" />
+					</div>
+					<h1 class="text-3xl">Azure Service Bus</h1>
+				</li>
+				<li class="flex justify-start xl:justify-center items-center gap-8 w-full">
+					<div class="w-1/6 aspect-square">
+						<img src="/rabbitmq.svg" alt="service_bus" />
+					</div>
+					<h1 class="text-3xl">RabbitMQ</h1>
+				</li>
+				<li class="flex justify-start xl:justify-center items-center gap-8 w-full">
+					<div class="w-1/6 aspect-square">
+						<img src="/aws-sqs.svg" alt="service_bus" />
+					</div>
+					<h1 class="text-3xl">AWS SQS</h1>
+				</li>
+			</ul>
+		</section>
+		<section id="why" class="flex justify-center items-center w-full h-full bg-[#020E1D] text-zinc-200">
+			<div class="flex flex-col items-center w-[90%]">
+				<h1 class="text-md md:text-xl font-bold text-center w-[50%] my-20">
+					<span class="text-[#00d9d0]">Created for developers</span> who need to handle special cases of dead-lettered messages in different
+					message-brokers
+				</h1>
+				<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center items-center w-full h-full gap-14 xl:gap-4 mt-6">
+					<div class="relative w-full">
+						<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[50%] bg-grid-simple p-6 z-10">
+							<img src="/simple.svg" alt="simple_svg" />
+						</div>
+						<div class="border-[0.25rem] border-transparent rounded-xl bg-grid-item-border bg-clip-padding p-1">
+							<div class="flex flex-col justify-center items-center w-full h-full bg-[#002a53] rounded-lg p-4 backdrop-blur-md min-h-[15.625rem]">
+								<h1 class="font-medium text-2xl mt-14 mb-4">Simple</h1>
+								<h2 class="text-center text-sm w-[90%]">You can control your message processing with a unified configuration.</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="relative w-full">
+						<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[50%] bg-grid-developer-friendly p-6 z-10">
+							<img src="/developer-friendly.svg" alt="developer_friendly_svg" />
+						</div>
+						<div class="border-[0.25rem] border-transparent rounded-xl bg-grid-item-border bg-clip-padding p-1">
+							<div class="flex flex-col justify-center items-center w-full h-full p-4 bg-[#002a53] rounded-lg backdrop-blur-md min-h-[15.625rem]">
+								<h1 class="font-medium text-2xl mt-14 mb-4">Developer Friendly</h1>
+								<h2 class="text-center text-sm w-[90%]">Full control by our CLI called siloctl. Manage your connections in YAML files.</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="relative w-full">
+						<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-[50%] bg-grid-free p-6 z-10">
+							<img src="/developer-friendly.svg" alt="developer_friendly_svg" />
+						</div>
+						<div class="border-[0.25rem] border-transparent rounded-xl bg-grid-item-border bg-clip-padding p-1">
+							<div class="flex flex-col justify-center items-center w-full h-full bg-[#002a53] rounded-lg p-4 backdrop-blur-md min-h-[15.625rem]">
+								<h1 class="font-medium text-2xl mt-14 mb-4">Free</h1>
+								<h2 class="text-center text-sm w-[90%]">Run inside your environment with DockerTry it now!</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="module" src="/main.js"></script>
+	</body>
 </html>
